@@ -1,0 +1,130 @@
+h2, h3{
+  color: #000000;
+  font-weight: 500;
+}
+hr{
+ border-color: #B71C1C;
+ border-collapse: collapse;}
+
+#h1_services{
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+.service-column{
+
+  float: left;
+  width: 33.3%;
+  padding: 18px;
+  box-sizing:border-box;
+}
+.service_box{
+  background-color: #EBEDEF;
+  color: #000000;
+
+  margin: 0px;
+  padding: 0px;
+  transition: 0.3s;
+}
+
+h2.service-header{
+  background-color: #424242;
+  text-align: center;
+  padding: 10px;
+  color: #ffffff;
+}
+li.development-path{
+  margin: 7px 0 0 40px;
+}
+strong.description{
+  margin-left: 15px;
+}
+a.service-footer h3{
+  background-color:  #424242;
+  color: #ffffff;
+  padding: 5px;
+  text-align:center;
+  position: relative;
+}
+a.service-footer h3:hover{
+  background-color: #B71C1C;
+  transition: .3s;
+}
+a.service-footer{
+  text-decoration: none;
+}
+h3.footer-build{
+  margin-top: 118px;
+}
+
+h3.footer-expand{
+  margin-top: 200px;
+}
+
+h3.footer-maintenance{
+  margin-top: 165px;
+}
+p.price{
+  padding-left: 15px;
+}
+
+@media screen and (max-width:700px){
+  .service-column{
+    width: 100%;
+    transition: 0.4s;
+  }
+}
+
+
+
+
+/*more info about the process and pricing for each service*/
+button.more_info {
+  font-size: 22px;
+  text-align: center;
+  position: relative;
+  left: 45.25%;
+  color: #ffffff;
+  background-color: #424242;
+  width: 220px;
+  padding: 30px;
+  border: 2px;
+  display: none;
+}
+
+.more_info:hover{
+  text-decoration: underline;
+
+}
+
+/*Become a client page*/
+
+
+.center{
+  text-align: center;
+}
+
+span.email{
+  color: #B71C1C;
+}
+#consultation{
+  padding-bottom: 100px;
+}
+
+/*Expand page*/
+#expansion-info{padding-bottom: 92px;}
+
+
+/*maintenance*/
+#pricing{padding-bottom: 20px;}
+
+/*Policy page*/
+a.policy{
+  color: #B71C1C
+}
+
+#policy-main-header h2{
+  text-align: center;
+  margin-top: 50px;
+
+}

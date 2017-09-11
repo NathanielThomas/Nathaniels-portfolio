@@ -1,0 +1,15 @@
+
+body{font-size: 17px;}
+
+nav, img, footer {
+  display: none}
+
+#logo{
+  color: black}
+
+#info{
+  border-bottom: 0px;
+  color: black;}
+#info h2{
+  color: black;
+}

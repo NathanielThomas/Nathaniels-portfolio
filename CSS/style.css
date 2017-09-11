@@ -1,0 +1,251 @@
+body{
+  Font: 19px/1.5 Ariel, Avenir, Helvetica;
+  padding: 0px;
+  margin: 0px;
+  background-color: #ffffff;
+}
+
+strong{
+  font-weight: 500;}
+
+
+/*Global*/
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;}
+.highlight{
+  color: #B71C1C}
+.white{
+  color: #ffffff;}
+li.list_style_non{
+  list-style: none;}
+.main_header{
+  text-align: center;
+  font-weight: 500;}
+img.social_media{
+  width: 54px;
+  height: 54px;}
+.elevate_link{
+  color: #000000}
+
+.contact{
+  margin-top: -8px;
+  padding: 10px 0px 15px 0px;
+  background-color: #424242;
+  border-top: #B71C1C 3px solid;
+  border-bottom: #B71C1C 3px solid;}
+.contact p, h2{
+  color: #ffffff}
+.contact ul{
+  margin: 0px;
+  padding:0px;}
+.contact li{
+  display: inline;
+  padding: inherit;
+  margin: inherit;
+}
+img.social_media{
+  width: 54px;
+  height: 54px;}
+
+/*Header*/
+header{
+  background-color: #424242;
+  color: #ffffff;
+  padding-top: 10px;
+  min-height: 70px;
+  border-bottom: #B71C1C   3px solid;}
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 28px;}
+header li{
+  display: inline;
+  list-style: none;
+  padding-left: 7px;}
+header #logo{
+  float: left;}
+header #logo h1{
+  margin-top: 10px;}
+header nav{
+  float:right;
+  margin-top: 5px;
+}
+
+a:link{
+  color: #ffffff;
+  text-decoration: none;}
+
+a:hover{
+  text-decoration:underline;
+  }
+
+
+
+
+/*Footers, I had trouble getting it to work with one universal style.*/
+footer{
+
+  background-color: #424242;
+  text-align: center;
+  margin: 0px;}
+#footer2{
+  margin-top: 434px;}
+#footer3{
+}
+#footer4{
+  margin-top: 1208px;}
+#footer5{
+  margin-top: 395px;}
+#footer6{
+}
+
+/*About me page CSS*/
+#about{
+  margin-bottom: 80px;
+}
+#about ul{
+  float: right;
+  margin-right: 5px;
+  margin: 0px;
+  padding: 0px;
+}
+@media screen and (max-width:900px){
+  #about ul{
+    margin-right: 50px;
+    margin-top: 10px;
+  }
+}
+#about li{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+@media screen and (max-width: 800px){
+  #about li{
+    float: none;
+    display: inline;
+  }
+}
+#about h2{
+  margin-left: 0px;
+  padding-left: 0px;
+  color: #B71C1C;
+  font-weight: 500;
+}
+
+img.profile_picture{
+  width: 328px;
+  height: 240px;
+  float: right;
+  padding-right: 20px;
+}
+
+
+#cover_letter{
+  text-align: left;
+  color: #ffffff;
+  background-color: #424242;
+  border-top: #B71C1C 2px solid;
+  padding-bottom: 602px;
+}
+#cover_letter h2{
+  padding-left: 0px;
+  margin-right: 0px;
+}
+
+
+
+/*Contact form CSS*/
+  #contact_form{
+    background-color: #424242;
+    border-top: 3px solid #B71C1C;
+    margin: auto;
+    height: 825px;}
+  #contact_form p{
+    margin-bottom: -50px;
+    color: #ffffff}
+  #contact_form form{
+    margin-top: 80px;}
+  #contact_form label{
+    display: block;
+    margin-bottom: 20px;}
+  #contact_form select{
+    float: left;
+    margin-top: -6px;
+    width: 32%;
+    height: 44px;
+    margin-right: 10px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+
+  }
+  .contact-info-group label{
+    width: 42.5%;
+    margin-right: 7.47%;
+    float: left;}
+  .contact-info-group input{
+    border-radius: 0px;
+    border: 1px solid black;
+    width: 115%;
+    height: 44px;
+    font-size: 20px;
+    padding-left: 7px;}
+
+  #selectService{
+    margin-top: 3.95%;
+    width: 150px;
+    outline: 1px solid #B71C1C;
+    border: 0px;
+    background-color: #ffffff;
+    color: black;
+    font-family: avenir;
+    font-size: 20px;
+
+    }
+    #contact_form textarea{
+      width: 98.75%;
+      clear: both;
+      height: 400px;
+      font-size: 17px;
+      padding-left: 7px;
+      padding-top: 7px;
+      border: 1px solid black;
+      margin: auto;
+
+
+    }
+    .url{
+      width: 34%;
+      margin-right: 6.47%;
+      float: left;
+    }
+    .url input{
+      border: 1px solid black;
+      width: 115%;
+      height: 44px;
+      font-size: 20px;
+      padding-left: 7px;
+      margin-bottom: 20px;
+    }
+    input#userWebsite{
+      margin-top: -7px;
+    }
+
+    button.submit-button{
+      width: 150px;
+      height: 48px;
+      font-size: 18px;
+      color: #B71C1C;
+      clear: both;
+      border: 1px solid #B71C1C;
+      background: #ffffff;
+      margin-top: -7px;}
+
+      @media screen and (max-width:1100px){
+        .contact-info-group label {
+          width: 100%;
+          transition: 0.5s;
+        }
+      }
