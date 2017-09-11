@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="I can design and develop your website.">
+    <meta name="keywords" content="Website, Design, Developer, HTML, CSS, JavaScript, SEO, become a client">
+    <meta name="author" content="Nathan Willett">
+    <title>Nathan's Portfolio | Become a Client</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/services.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/print.css" media="print"/>
+  </head>
+  <body lang="en">
+    <header>
+      <div class="container">
+        <div id="logo">
+          <h1>Nathan Willett - Web developer<h1>
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li><a href ="index.html">Home</a></li>
+            <li><a href = "resume.html">Resume</a></li>
+            <li><a href = "about me.html">About me</a></li>
+            <li><a class = "highlight" href = "services.html"> Services</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="consultation">
+      <div class="container">
+      <h2 class="main_header highlight">Become a client</h2>
+        <p>
+          <h4 class="highlight">Consultation:</h4>
+          <strong>Before agreeing to any amount of work or payment I will first give you an in depth (free) consultation.</strong>
+          <br>
+          I will then email you as soon as possible with a project proposal that will include a price, project timeline, and policy.<br>
+          You can find the policy here: <a class="policy" href = "policy.html">Policy page</a></p><br>
+      </div>
+    </section>
+
+    <section id="contact_form">
+      <div class="container">
+        <h2 class="main_header white">Contact me</h2>
+          <p>Email me through this page and we will set up a consultation meeting.</p>
+            <form action="https://formspree.io/your@email.com" method="POST" name="contactForm" onsubmit="return validateBecomeAClientForm()">
+              <div class="contact-info-group">
+                <label><input id="userName" type="text" name="name" placeholder="Enter your full name" onfocus="onFocusScript(this.id)" onblur="onBlurScript(this.id)"></label>
+                <label><input id="userEmail" type="email" name="replyTo" placeholder="Enter your email" onfocus="onFocusScript(this.id)" onblur="onBlurScript(this.id)"></label>
+              </div>
+              <label><textarea id="userMessage"name="message" placeholder="Your message..." onfocus="onFocusScript(this.id)" onblur="onBlurScript(this.id)"></textarea></label>
+              <label><button class="submit-button" type="submit" value="Send"/>Send</button></label>
+            </form>
+        </div>
+    </section>
+
+    
+
+
+
+    <footer id="footer6">
+      <div class="container">
+        <sub>I hand coded this website and it is being hosted on google cloud storage.</sub>
+      </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
